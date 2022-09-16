@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+   
+<div class="wrapper" >
+
+<table id="table">
+ </table>
+          <button id="btn" >Create Note</button>
+
+<table id="table2">
+</table>
+<button id="btnArhive" >Show Arhive</button>
+
+ <div id="newTaskWindow">
+ 
+  <input type="text" placeholder="Name" pattern="[a-zA-Z]+" value="" >
+  <input type="text" placeholder="Categories" pattern="[a-zA-Z]+" value="">
+ 
+  <select id="Categories">
+    <option value="Random">Random</option>
+    <option value="Task">Task</option>
+ </select>
+  <button id="btnSave" >Save</button>
+
+ </div>
+ <div id="editTaskWindow">
+ 
+  <input type="text" pattern="[a-zA-Z]+" placeholder="Name" value="" >
+  <select id="Categories">
+    <option value="Random">Random</option>
+    <option value="Task">Task</option>
+ </select>
+ 
+  <input type="text" placeholder="Content" value="" pattern="[a-zA-Z]+">
+  <button id="btnEdit" >Edit</button>
+
+ </div>
+ <table id="table3">
+</table>
+<button id="btnArhiveClose" >Close</button>
+ 
+
+</div>
+
+
+
+
+</body>
+<script type="module" src="./js/main.js"></script>    
+
+
+</html>
+

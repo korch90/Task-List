@@ -1,0 +1,101 @@
+.wrapper{
+    max-width: 800px;
+    min-height: 500px;
+    background-color: rgb(239, 239, 239);
+    margin:  10px auto;
+    position: relative;
+   
+}
+#table{
+width: 90%;
+border-collapse: collapse;
+margin: 50px auto;
+margin-bottom: 20px;
+
+}
+
+
+#table2{
+    width: 90%;
+    border-collapse: collapse;
+    margin: 50px auto;
+    margin-bottom: 20px;
+    }
+
+    #table3{
+        width: 90%;
+        border-collapse: collapse;
+        margin: 50px auto;
+        margin-bottom: 20px;
+        }
+      
+.tableHead{
+    background-color:#605f5f;
+    color: aliceblue;
+    border-bottom: 5px solid #F2F8F8;
+    margin-top: 50px;
+}
+.tableBody{
+    background-color: #93a2c8
+}
+.tableTh{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+	padding: 5px;
+	border-bottom: 5px solid #F2F8F8;
+
+}
+.tableTd{
+    color: rgb(56, 55, 55);
+    padding: 5px;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}
+
+.imgIcon{
+    width: 18px;
+height: 18px;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+#btn{
+   float: right;
+   margin-right: 40px;
+}
+#btnArhive{
+    float: right;
+    margin-right: 40px;
+    display: block;
+ }
+ #btnArhiveClose{
+    float: right;
+    margin-right: 40px;      
+    display: none;   
+}
+#newTaskWindow{
+position: absolute;
+min-width: 600px;
+min-height: 50px;
+background-color: rgb(77, 153, 200);
+margin: 0 auto;
+top: 100px;
+left: 12%;
+display: none;
+justify-content: center;
+align-items: center;
+
+}
+#editTaskWindow{
+    position: absolute;
+    min-width: 600px;
+    min-height: 50px;
+    background-color: rgb(77, 153, 200);
+    margin: 0 auto;
+    top: 100px;
+    left: 12%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    }
+  
